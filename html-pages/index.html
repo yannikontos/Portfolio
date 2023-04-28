@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css-pages/style.css">
+    <link rel="stylesheet" href="/css-pages/blob.css">
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+</head>
+<body>
+    <div class="all">
+        
+    <div class="landing-page" id="landingPage">
+        <section class="burger-container" id="burgerContainer">
+            <i class="fi fi-rr-menu-burger burger-icon" id="burgerIcon"></i>
+            <i class="fi fi-rr-cross burger-icon cross-icon" id="crossIcon"></i>
+        </section>
+        
+        <nav class="side-navbar" id="navbar">
+        <ul class="nav-list" id="navList">
+            <li class="nav-item-1 nav-item"><a href="#landingPage" class="links"><span class="nav-item-text">Home</span></a></li>
+            <li class="nav-item-2 nav-item"><a href="#page2" class="links"><span class="nav-item-text">Projects</span></a></li>
+            <li class="nav-item-3 nav-item"><a href="#page3Wrapper" class="links"><span class="nav-item-text">About</span></a></li>
+        </ul>
+    </nav>
+    
+        <main class="main-desc">
+            <div class="main-wrapper">
+                <div class="socials">
+                    
+                <section class="name-pfp-socials">
+                    <header class="main-header">
+                        <h1 class="extra-name">Yannis Kontos</h1>
+                    </header>
+
+                    <div class="pfp-socials">
+                        <img class="pfp-img" src="/img/Icelandic-views-12.webp" alt="#">
+                        <div class="social-container">
+                            <h2 class="socials-header">Socials</h2>
+                            <ul class="social-icons" id="navList">
+                                <li><a class="nav-icon nv-gmail" target="_blank" href="mailto:yanni.dvx@gmail.com"><i class="fi fi-sr-envelope fi-brands fi-email" title="Email"></i></a></li>
+                                <li><a class="nav-icon nv-github" href="https://github.com/YanniKontos" target="_blank"><i class="fi fi-brands-github fi-github fi-brands" title="GitHub"></i></a></li>
+                                <li><a class="nav-icon nv-twitter" href="https://twitter.com/Yanni_Kontos" target="_blank"><i class="fi fi-brands-twitter fi-twitter fi-brands" title="Twitter"></i></a></li>
+                                <li><a class="nav-icon nv-linkedIn" href="https://www.linkedin.com/in/yannis-kontos-1a2358238/" target="_blank"><i class="fi fi-brands-linkedin fi-linkedIn fi-brands" title="LinkedIn"></i></a></li>
+                                <li><a class="nav-icon nv-discord" href="#" target="_blank" title="Discord"><i class="fi fi-brands-discord fi-discord fi-brands"></i></a></li>
+                            </ul> 
+                            <div class="online-status" title="Discord Prescence">
+                                <i class="fi fi-brands-discord discord-presence"></i>
+                                <span class="status-type" id="statusType">Offline</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="spotify-panel">
+                <i class="fi fi-brands-spotify spotify-icon"></i>
+                <div class="titles-container" id="temp">
+                    <img class="track-icon" id="trackIcon" src="/img/no-song-icon.jpg" alt="#" width="75px" height="75px">
+                    <p class="track-name" id="trackName">Nothing Playing</p>
+                    <p class="artist-name" id="artistName">Unknown Artist Name</p>
+                    <p class="album-name" id="albumName">Unknown Album</p>
+                </div>
+            </div>
+
+            </div>
+        </main>
+    </div>
+
+
+    <div class="page-2" id="page2">
+        <div class="main-container" id="mainContainer">
+            <form class="form-container" id="formContainer">
+                <h1 class="project-header">Projects</h1>
+                <div class="textbox">
+                    <input class="project-finder" id="projectQuery" placeholder="Search Projects..." required></input>
+                    <button class="filter-icon" type="submit">
+                        <i class="fi fi-rs-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+
+            <ul class="project-link-container">
+                <li class="panel-item" id="panelItem"><a href=" https://github.com/YanniKontos/dictionary-app" class="project-links" target="_blank">Dictionary App</a>
+                    <p>API Utilisation</p>
+                    <div class="project-detail-footer">
+                        <span class="tech-text"><i class="fi fi-brands-js"> JavaScript</i></span>
+                        <span><i class="fi fi-rr-star gh-star" id="item1Starred">Feature Not Working</i> <i class="fi fi-rr-code-fork gh-fork" id="item1Forked">Feature Not Working</i></span>
+                    </div>
+                </li>
+                <li class="panel-item" id="panelItem"><a href="https://github.com/YanniKontos/todos-app" class="project-links" target="_blank">Todos App</a>
+                    <p>LocalStorage, Todos</p>
+                    <div class="project-detail-footer">
+                        <span class="tech-text"><i class="fi fi-brands-js"> JavaScript</i></span>
+                        <span><i class="fi fi-rr-star gh-star" id="item2Starred">Feature Not Working</i> <i class="fi fi-rr-code-fork gh-fork" id="item2Forked">Feature Not Working</i></span>
+                    </div>
+                </li>
+                <li class="panel-item" id="panelItem"><a href="https://github.com/YanniKontos/weather-app" class="project-links" target="_blank">Weather App</a>
+                    <p>API Utilisation</p>
+                    <div class="project-detail-footer">
+                        <span class="tech-text"><i class="fi fi-brands-js"> JavaScript</i></span>
+                        <span><i class="fi fi-rr-star gh-star" id="item3Starred">Feature Not Working</i> <i class="fi fi-rr-code-fork gh-fork" id="item3Forked">Feature Not Working</i></span>
+                    </div>
+                </li>
+                <li class="panel-item" id="panelItem"><a href="https://github.com/YanniKontos/String-Encryption" class="project-links" target="_blank">Password Encryptor</a>
+                    <p>Encryption, Fernet</p>
+                    <div class="project-detail-footer">
+                        <span class="tech-text"><i class="fi fi-brands-python py"><span> Python</span></i></span>
+                        <span><i class="fi fi-rr-star gh-star" id="item4Starred">Feature Not Working</i> <i class="fi fi-rr-code-fork gh-fork" id="item4Forked">Feature Not Working</i></span>
+                    </div>
+                </li>
+            </ul>
+                                
+            <aside class="tech-icons-container">
+                <img class="tech-icons icon-type-1"  src="/img/html-5.png" alt="#">
+                <img class="tech-icons icon-type-2"  src="/img/css-3.png" alt="#">
+                <img class="tech-icons icon-type-1"  src="/img/js.png" alt="#">
+                <img class="tech-icons icon-type-2"  src="/img/c-sharp.png" alt="#">
+                <img class="tech-icons icon-type-1"  src="/img/python.png" alt="#">
+            </aside>
+        </div>
+    </div>
+
+    <div class="page-3" id="page3">
+        <div class="page-3-wrapper" id="page3Wrapper">
+            <h1 class="about-header">About Me</h1>
+            <p class="about">My name is Yannis and I develop websites using technologies 
+            such as Javascript; and plan on delving into <a class="about about-link" href="https://react.dev/" target="_blank">React</a> , 
+            <a class="about about-link" href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> , 
+            <a class="about about-link" href="https://vuejs.org/" target="_blank">Vue</a> and other language libraries / frameworks alike 
+            in the upcoming future. Although I have touched upon a decent amount of languages previously, through 
+            either education or self teaching, I mainly work in HTML, CSS, JS as web development interests me the
+            most.
+            </p> 
+            
+            <br>
+
+            <p class="about">
+                This project is a refined version of all my prior portfolio's and is also made the best: for this, the 
+                main aspects of it are: WebSockets for <a class="about about-link" href="https://github.com/Phineas/lanyard#readme" target="_blank">
+                real-time displaying of spotify and discord data</a>, <a class="about about-link" href="https://docs.github.com/en/rest?apiVersion=2022-11-28">GitHub API</a>
+                to check the amount of forked / starred my repos have recieved.
+            </p>
+
+            <br>
+
+            <p class="about">
+                All my projects up to this date were also made using the technologies listed on the panels below.
+            </p>
+                
+            <ul class="tech-panels">
+                <li class="tech-item">
+                    <img src="/img/html-5.png" alt="#" width="35px" height="35px">
+                    <p class="language-name">HTML</p>
+                </li>
+                <li class="tech-item">
+                    <img src="/img/css-3.png" alt="#" width="35px" height="35px">
+                    <p class="language-name">CSS</p>
+                </li>
+                <li class="tech-item">
+                    <img src="/img/js.png" alt="#" width="35px" height="35px">
+                    <p class="language-name">JavaScript</p>
+                </li>
+                <li class="tech-item">
+                    <img src="/img/c-sharp.png" alt="#" width="35px" height="35px">
+                    <p class="language-name">C#</p>
+                </li>
+                <li class="tech-item">
+                    <img src="/img/python.png" alt="#" width="35px" height="35px">
+                    <p class="language-name">Python</p>
+                </li>
+                <li class="tech-item tech-item-6">
+                    <img src="/img/bootstrap-logo.png" alt="#" width="60px" height="60px">
+                    <p class="language-name">Bootstrap</p>
+                </li>
+            </ul>
+        </div> 
+    </div>
+</div>
+
+    <div class="blob-container">
+
+        <div class="blob">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+                <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+            </svg>
+        </div>
+        
+        <div class="blob2">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+                <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+            </svg>
+        </div>
+        
+        <div class="blob3">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+                <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+            </svg>
+        </div>
+    </div>
+
+<script src="/app.js"></script>
+</body>
+</html>
