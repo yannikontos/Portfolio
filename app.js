@@ -9,7 +9,7 @@ const trackName = document.getElementById('trackName');
 const artistName = document.getElementById('artistName');
 const albumName = document.getElementById('albumName');
 const statusType = document.getElementById("statusType");
-const discordApiKey = `https://api.lanyard.rest/v1/users/265134455708975104`;
+const discordApiKey = `https://api.lanyard.rest/v1/users/`;
 const githubApiKey = `https://api.github.com/users/YanniKontos/repos`;
 const socketUrl = 'wss://api.lanyard.rest/socket';
 
