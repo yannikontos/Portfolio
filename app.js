@@ -123,7 +123,6 @@ async function getRepoInfo() {
     try {
         const res = await fetch(githubApiKey);
         const data = await res.json();
-        const jsonArr = [];
 
         
         for (let i = 0; i < data.length; i++) {
