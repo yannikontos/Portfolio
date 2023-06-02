@@ -163,7 +163,7 @@ function createWebSocket(){
         console.log('WebSocket connection opened');
         
         socket.send(JSON.stringify({op: 2, d: {
-            subscribe_to_ids: ["265134455708975104"]
+            subscribe_to_ids: ["#"]
         } }));
     });
     
