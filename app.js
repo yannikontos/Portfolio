@@ -132,7 +132,7 @@ async function getRepoInfo() {
             
             switch(projects.name) {
                 
-                case "dictionary-app": 
+                case "Group-Chat": 
                 item1Starred.textContent = " " + stargazers_count;
                 item1Forked.textContent = " " + forks;
                 
@@ -140,7 +140,7 @@ async function getRepoInfo() {
                     item2Starred.textContent = " " + stargazers_count;
                 item2Forked.textContent = " " + forks;
                 
-                case "weather-app":
+                case "Polynomial-Calculator":
                     item3Starred.textContent = " " + stargazers_count;
                     item3Forked.textContent = " " + forks;
                     
